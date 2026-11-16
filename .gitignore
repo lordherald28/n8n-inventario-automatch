@@ -1,0 +1,21 @@
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Datos locales de n8n
+.n8n/
+n8n_data/
+
+# Temporales y logs
+*.log
+tmp/
+temp/
+
+# Archivos del sistema y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
